@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.timerTitle {
+  color: burlywood;
+  text-align: center;
+}
+
+.timerWrapper {
+  display: flex;
+  border: 1px solid red;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  background: cornflowerblue;
+  padding: 50px;
+  flex-flow: column;
+}
+
+.timerWrapper div {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.clockFace {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header,
+footer {
+  text-align: center;
+  background: black;
+  color: whitesmoke;
+  padding: 100px 0;
+  flex: 0 0 auto;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+html,body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+}
